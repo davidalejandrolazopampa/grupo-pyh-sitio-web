@@ -13,7 +13,6 @@ Archivo estático del sitio [grupopyh.com](https://grupopyh.com/), en el que par
 | Fertilizantes PyH | `fertilizantes-pyh/` |
 | Clientes | `clientes/` |
 | Contacto | `contacto/` |
-| Portafolio (plantilla) | `portfolio/`, `portfolio-category/` |
 
 ## Mi rol
 **Practicante Asistente de TI — Grupo P&H Engineering S.A.C.** (agosto – diciembre 2023)

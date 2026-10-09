@@ -60,7 +60,6 @@ Grupo PyH/
 ├── index.html                 ← portada
 ├── nosotros/  contacto/  clientes/  equipamiento-industrial/
 ├── calderaspyh/  explotacion-petrolera-ph/  fertilizantes-pyh/
-├── portfolio/  portfolio-category/  404-2/
 ├── core/styleme/              ← CSS/JS de los plugins
 ├── myimages/                  ← imágenes y CSS compilado del tema
 ├── libary/                    ← jQuery y núcleo JS de WordPress
@@ -93,7 +92,8 @@ para que la navegación funcione sin conexión.
 1. Se obtuvieron las URLs públicas del sitemap (`wp-sitemap.xml`), respetando `robots.txt`.
 2. Se descargaron con `wget` (`--page-requisites --convert-links --adjust-extension`) con pausas entre peticiones.
 3. Un script reescribió como rutas relativas los enlaces internos que `wget` no convirtió.
-4. Se comprobó en un servidor local que las 19 páginas respondían y que no faltaba ningún recurso local.
+4. Se comprobó en un servidor local que las páginas respondían y que no faltaba ningún recurso local.
+5. Se eliminaron las páginas de demostración del tema (`portfolio/`, `portfolio-category/`, `404-2/`), que no tenían contenido de la empresa ni enlaces desde el sitio.
 
 ## Cómo servirlo
 
