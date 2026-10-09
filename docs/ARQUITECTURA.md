@@ -81,6 +81,11 @@ para que la navegación funcione sin conexión.
 | Sliders, pestañas y animaciones | Panel de administración |
 | Diseño responsive | Feeds RSS, `wp-json`, `xmlrpc.php` |
 
+### Problemas conocidos heredados del sitio original
+
+- `myimages/2026/02/CALDERAS-HORIZONTALES.webp` (página Calderas): en el servidor original este archivo es en
+  realidad un documento HTML con extensión `.webp`, así que la imagen tampoco se muestra en producción.
+
 ### Qué no está incluido
 
 - Código PHP de WordPress, del tema y de los plugins
@@ -93,7 +98,10 @@ para que la navegación funcione sin conexión.
 2. Se descargaron con `wget` (`--page-requisites --convert-links --adjust-extension`) con pausas entre peticiones.
 3. Un script reescribió como rutas relativas los enlaces internos que `wget` no convirtió.
 4. Se comprobó en un servidor local que las páginas respondían y que no faltaba ningún recurso local.
-5. Se eliminaron las páginas de demostración del tema (`portfolio/`, `portfolio-category/`, `404-2/`), que no tenían contenido de la empresa ni enlaces desde el sitio.
+5. Se corrigió un fallo de conversión de `wget`: en el original, el `srcset` del logo móvil tiene espacios
+   dentro de las comillas (`' https://…/Logo-Grupo-PyH-min.png '`) y `wget` lo reescribió como `…min.pngg`,
+   lo que rompía el logo en móvil.
+6. Se eliminaron las páginas de demostración del tema (`portfolio/`, `portfolio-category/`, `404-2/`), que no tenían contenido de la empresa ni enlaces desde el sitio.
 
 ## Cómo servirlo
 
