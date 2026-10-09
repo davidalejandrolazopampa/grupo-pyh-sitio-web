@@ -22,7 +22,9 @@ Archivo estático del sitio [grupopyh.com](https://grupopyh.com/), en el que par
 - Optimicé la funcionalidad de servidores empresariales, lo que mejoró la disponibilidad de los sistemas.
 
 ## Stack del sitio original
-WordPress + tema Jupiter X + Elementor (JetElements / JetTricks).
+WordPress + tema Jupiter X + Elementor (JetElements / JetTabs / JetTricks).
+
+📐 Detalle de la arquitectura, las tecnologías y cómo se generó la copia: [docs/ARQUITECTURA.md](docs/ARQUITECTURA.md)
 
 ## Cómo verlo localmente
 ```bash
