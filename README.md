@@ -1,6 +1,19 @@
-# Grupo P&H Engineering – Equipamiento Industrial (copia estática)
+# Grupo P&H Engineering – Sitio corporativo (copia estática)
 
-Archivo estático de la página [grupopyh.com/equipamiento-industrial](https://grupopyh.com/equipamiento-industrial/), en la que participé durante mis prácticas.
+Archivo estático del sitio [grupopyh.com](https://grupopyh.com/), en el que participé durante mis prácticas.
+
+## Páginas incluidas
+| Página | Ruta |
+|---|---|
+| Inicio | `index.html` |
+| Nosotros | `nosotros/` |
+| Equipamiento Industrial | `equipamiento-industrial/` |
+| Calderas PyH | `calderaspyh/` |
+| Explotación Petrolera | `explotacion-petrolera-ph/` |
+| Fertilizantes PyH | `fertilizantes-pyh/` |
+| Clientes | `clientes/` |
+| Contacto | `contacto/` |
+| Portafolio (plantilla) | `portfolio/`, `portfolio-category/` |
 
 ## Mi rol
 **Practicante Asistente de TI — Grupo P&H Engineering S.A.C.** (agosto – diciembre 2023)
@@ -9,7 +22,7 @@ Archivo estático de la página [grupopyh.com/equipamiento-industrial](https://g
 - Optimicé la funcionalidad de servidores empresariales, lo que mejoró la disponibilidad de los sistemas.
 
 ## Stack del sitio original
-WordPress + Elementor (JetElements / JetTricks), WooCommerce para el e-commerce.
+WordPress + tema Jupiter X + Elementor (JetElements / JetTricks).
 
 ## Cómo verlo localmente
 ```bash
